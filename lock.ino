@@ -1,10 +1,3 @@
-#include <deprecated.h>
-#include <require_cpp11.h>
-#include <MFRC522Hack.h>
-#include <MFRC522Debug.h>
-#include <MFRC522.h>
-#include <MFRC522Extended.h>
-
 /*
 * Read a card using a mfrc522 reader on your SPI interface
 * Pin layout should be as follows (on Arduino Uno):
@@ -16,7 +9,7 @@
 */
 
 #include <SPI.h>
-//#include <RFID.h>
+#include <RFID.h>
 
 #define SS_PIN 10
 #define RST_PIN 9
